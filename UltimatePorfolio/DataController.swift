@@ -11,6 +11,8 @@ class DataController: ObservableObject {
 	
 	let container: NSPersistentCloudKitContainer
 	
+	@Published var selectedFilter: Filter? = Filter.all
+	
 	// for previewing only, not saving on disk
 	static var preview: DataController {
 		let dataController = DataController(inMemory: true)
@@ -49,7 +51,7 @@ class DataController: ObservableObject {
 				issue.creationDate = Date.now
 				issue.completed = Bool.random()
 				issue.priority = Int16.random(in: 0...2)
-//				tag.addToIssues(issue) // ???
+				tag.addToIssues(issue) // relationships on data model
 				
 			}
 		}
