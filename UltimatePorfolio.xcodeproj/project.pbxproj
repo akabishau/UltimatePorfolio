@@ -11,6 +11,8 @@
 		5BC5E6C829A1465A0014D353 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5E6C729A1465A0014D353 /* ContentView.swift */; };
 		5BC5E6CA29A1465A0014D353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC5E6C929A1465A0014D353 /* Assets.xcassets */; };
 		5BC5E6CE29A1465A0014D353 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC5E6CD29A1465A0014D353 /* Preview Assets.xcassets */; };
+		5BC5E6D629A147580014D353 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5E6D429A147580014D353 /* Model.xcdatamodeld */; };
+		5BC5E6D829A149360014D353 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5E6D729A149360014D353 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5BC5E6C929A1465A0014D353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC5E6CB29A1465A0014D353 /* UltimatePorfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePorfolio.entitlements; sourceTree = "<group>"; };
 		5BC5E6CD29A1465A0014D353 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BC5E6D529A147580014D353 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		5BC5E6D729A149360014D353 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				5BC5E6C929A1465A0014D353 /* Assets.xcassets */,
 				5BC5E6CB29A1465A0014D353 /* UltimatePorfolio.entitlements */,
 				5BC5E6CC29A1465A0014D353 /* Preview Content */,
+				5BC5E6D429A147580014D353 /* Model.xcdatamodeld */,
+				5BC5E6D729A149360014D353 /* DataController.swift */,
 			);
 			path = UltimatePorfolio;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BC5E6C829A1465A0014D353 /* ContentView.swift in Sources */,
+				5BC5E6D829A149360014D353 /* DataController.swift in Sources */,
 				5BC5E6C629A1465A0014D353 /* UltimatePorfolioApp.swift in Sources */,
+				5BC5E6D629A147580014D353 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +362,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BC5E6D429A147580014D353 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BC5E6D529A147580014D353 /* Model.xcdatamodel */,
+			);
+			currentVersion = 5BC5E6D529A147580014D353 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5BC5E6BA29A146590014D353 /* Project object */;
 }
